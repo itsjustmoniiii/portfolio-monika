@@ -11,13 +11,13 @@ const Hero = () => {
       <div className="flex w-full  lg:flex-row flex-col justify-center items-center gap-3">
         <div className="lg:w-[50%] w-[90%]">
           <div className="flex flex-col ">
-            <h1 className="text-white text-[60px] md:text-[70px] lg:text-[90px] font-bold">
+            <h1 className="text-white text-[60px] lg:text-[90px] font-bold">
               Hi, I&apos;m{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#06666d] to-[#12bbc8]">
                 Monika
               </span>
             </h1>
-            <div className="text-[30px] md:text-[50px] text-white uppercase">
+            <div className="text-[25px] lg:text-[50px] text-white uppercase">
               <span className="text-white"> I am </span>
               <TypeAnimation
                 sequence={['a Developer', 2000, 'an UI/UX Designer', 2000]}
@@ -27,7 +27,7 @@ const Hero = () => {
                 className="text-transparent bg-clip-text bg-gradient-to-r from-[#06666d] to-[#12bbc8] font-bold"
               />
             </div>
-            <p className="mt-8 text-normal text-[16px] md:text-[20px]">
+            <p className="mt-8 text-normal text-[15px] lg:text-[20px]">
               I design and develop Websites, Web Applications
               <br className="sm:block hidden" /> & Mobile Applications with
               various tools and technologies
